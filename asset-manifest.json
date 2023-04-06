@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/code-convertor-Reactjs.github.io/static/css/main.abea1d9f.css",
+    "main.js": "/code-convertor-Reactjs.github.io/static/js/main.b03b2a46.js",
+    "static/media/sandy.png": "/code-convertor-Reactjs.github.io/static/media/sandy.18f90a1b2e8f6528e623.png",
+    "static/media/logos.png": "/code-convertor-Reactjs.github.io/static/media/logos.63d5ecc625af0f59c4cb.png",
+    "static/media/convLogo.png": "/code-convertor-Reactjs.github.io/static/media/convLogo.a95d34ba7d3ddcb99049.png",
+    "static/media/third.png": "/code-convertor-Reactjs.github.io/static/media/third.8002f0171c4296dc9f2f.png",
+    "static/media/changeCodeBg.png": "/code-convertor-Reactjs.github.io/static/media/changeCodeBg.14c44fba545044eba276.png",
+    "index.html": "/code-convertor-Reactjs.github.io/index.html",
+    "main.abea1d9f.css.map": "/code-convertor-Reactjs.github.io/static/css/main.abea1d9f.css.map",
+    "main.b03b2a46.js.map": "/code-convertor-Reactjs.github.io/static/js/main.b03b2a46.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abea1d9f.css",
+    "static/js/main.b03b2a46.js"
+  ]
+}
