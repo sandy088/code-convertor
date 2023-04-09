@@ -34,13 +34,13 @@ function CodeOutput(){
                     <Loading></Loading>
                 </div>) : (
                 
-                <div className="relative">
+                <div className="relative h-[100%-2%]">
                     
                     
                     {/* <textarea  className="w-[500px] h-[400px] operator" value={opCode} readOnly placeholder="Your Output will come here"> */}
-                      <Editor className="w-[500px] h-[400px] operator mx-5 rounded-2xl mb-5 text-white " padding={10} onValueChange={code => setOpCode(code)} highlight={code => highlight(code, languages.js)} value={opCode} placeholder="Your code will appear here"/>  
+                      <Editor className="w-[300px] h-[435px] md:w-[500px] operator mx-5 rounded-2xl mb-5 text-white " padding={10} onValueChange={code => setOpCode(code)} highlight={code => highlight(code, languages.js)} value={opCode} placeholder="Your code will appear here"/>  
                    {/* </textarea> */}
-                   <button className="absolute bottom-3 right-7 text-white" onClick={copyHandle}><FaCopy className="text-[30px]"/></button>     
+                   <button className="absolute bottom-3 right-7 text-white" onClick={copyHandle}><FaCopy className="text-[30px] hover:text-indigo-400 hover:scale-[1.2]"/></button>     
                 </div>)
                 
             }

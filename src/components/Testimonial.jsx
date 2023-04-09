@@ -11,12 +11,13 @@ export const TestimonialOne = () => {
         randomQoute()
     },[])
   return (
-    <section className="mx-auto px-10  py-10 bg-slate-800 h-[400px] flex items-center">
+    <section className="mx-auto px-10  py-10 bg-slate-800 flex items-center">
       <div className="max-w-4xl px-4 mx-auto sm:px-6 lg:px-8 bg-[#0f172a] p-8 rounded-xl py-10">
-        <div className="md:flex md:items-center md:justify-center md:space-x-14">
+        <div className="flex items-center justify-center space-x-14 flex-wrap md:flex-nowrap">
           <div className="relative flex-shrink-0 w-48 h-48 flex-wrap">
             <img
               className="relative object-cover w-48 h-48 rounded-full"
+              // change your image from here
               src= {sandy}
               alt="Sandeep Singh"
               loading="lazy"

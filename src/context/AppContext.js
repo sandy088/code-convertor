@@ -11,8 +11,10 @@ export function AppContextProvider({children}){
     const [randomQ, setRandomQ] = useState("")
     const [selectedItem, setSelectedItem] = useState('Java')
 
-    const options = ['Java', 'Python', 'Dart', 'Javascript', 'C++', 'Html', 'XML', 'React.js','Flutter', 'React Native', '.NET']
-    const APIKEY = process.env.REACT_APP_API_KEY
+    //Add other programming Language if you want 👇👇
+
+    const options = ['Java', 'Python', 'JavaScript', 'C', 'C++', 'C#', 'Ruby', 'Swift', 'Objective-C', 'PHP', 'Go', 'Rust', 'Kotlin', 'Scala', 'Haskell', 'Lua', 'Perl', 'Shell', 'SQL', 'HTML', 'CSS','Django', 'Flask', 'FastAPI', 'Node.js', 'React', 'Angular', 'Vue.js', 'Express', 'Spring', 'Ruby on Rails', 'Laravel', 'Symfony', 'Zend', 'ASP.NET', 'ASP.NET Core', 'Play', 'Akka', 'Grails', 'Meteor', 'Ember', 'Flutter', 'Ionic', 'Xamarin', 'NativeScript', 'PhoneGap', 'Cordova', 'React Native', 'Ionic', 'Electron', 'Pyramid', 'Bottle', 'CherryPy']
+    
 
     function selectChangeHandler(event) {
         setSelectedItem(event.target.value)
@@ -20,14 +22,16 @@ export function AppContextProvider({children}){
     }
 
     const configuration = new Configuration({
-        apiKey: APIKEY
+        //Add your API Key here 👇👇
+        // get your api key from here https://platform.openai.com/account/api-keys
+        apiKey: "replace by Your own API key"
      })
 
      const openai = new OpenAIApi(configuration)
 
 
      async function handleSubmit(){
-        console.log(APIKEY)
+        
       setLoading(true)
         try {
                  const response = await openai.createCompletion({

@@ -8,7 +8,7 @@ export const FeatureThree = () => {
   return (
     <section className="py-10 sm:py-16 lg:py-24 relative">
       {/* third section bg image */}
-      <div className="absolute -z-0 top-0 opacity-0 xl:left-[23%] xl:opacity-100">
+      <div className="absolute -z-0 top-0 opacity-0 sm:left-[0] xl:left-[23%] sm:opacity-70 xl:opacity-100">
         <img src={third} height={200} width={200} loading="lazy"/>
       </div>
       
@@ -20,7 +20,7 @@ export const FeatureThree = () => {
               Quick+ Ai assist Code conversions
             </p>
           </div>
-          <h2 className="mt-6 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
+          <h2 className="relative mt-6 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
           Transform Your Code Effortlessly with Our AI-powered Converter
           </h2>
           <p className="mt-4 text-base leading-relaxed text-gray-600 dark:text-gray-300">
