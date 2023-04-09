@@ -18,7 +18,7 @@ export const TestimonialOne = () => {
             <img
               className="relative object-cover w-48 h-48 rounded-full"
               // change your image from here
-              src= {sandy}
+              src= "https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
               alt="Sandeep Singh"
               loading="lazy"
             />
